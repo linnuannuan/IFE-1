@@ -1,0 +1,118 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+aside,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+.head{
+	font:12px "黑体";
+	line-height:56px;
+	color: white;
+	height: 56px;
+	width: 100%;
+	background-color: rgb(33,137,191);
+}
+.head .logo1{
+	padding-left: 50px;
+	padding-top:7px;
+	display:inline-block;
+}
+
+.head input[type="text"]{
+	padding-top: -20px;
+	outline: none;
+	text-indent: 35px;
+	width: 315px;
+	height: 26px;
+	border-radius:14px;
+	border-style: none; 
+	background: #fff url("img/icon1.png") 10px 3px no-repeat;
+}
+.head_right{
+	float: right;
+	margin-right:90px; 
+}
+.head_right span{
+	cursor: pointer;
+}
+.head_right img{
+    width: 25px;
+    height: 20px;
+    padding-left:12px;
+    margin-bottom: -5px;
+}
+aside{
+	height:1213px;
+	width: 260px;
+	background-color: rgb(42,46,61);
+	color: white;
+	display: inline-block;
+}
+.content{
+	height:1211px;
+	width:1021px;
+	background-color: rgb(237,237,236);
+	display: inline-block;
+}

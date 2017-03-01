@@ -1,0 +1,444 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+html {
+  font-family: 'Open Sans';
+}
+strong {
+  font-weight: bold;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+.container {
+  width: 85%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*# sourceMappingURL=src/styles/stylus/common.css.map */.header {
+  padding-bottom: 50px;
+  background-color: #39b54a;
+}
+.header .logo {
+  position: absolute;
+  left: 10%;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.25);
+}
+.header .logo img {
+  width: 250px;
+  height: 230px;
+}
+.header .inner-img img {
+  width: 100%;
+  height: auto;
+}
+.header .title {
+  width: 85%;
+  max-width: 900px;
+  margin: 75px auto 0px auto;
+  font-family: 'Roboto Slab';
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  line-height: 72px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+}
+@media screen and (max-width: 899px) and (min-width: 500px) {
+  .header .logo img {
+    width: 140px;
+    height: auto;
+  }
+  .header .title {
+    margin: 50px auto 0px auto;
+    font-size: 42px;
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 499px) {
+  .header {
+    padding-bottom: 25px;
+  }
+  .header .logo img {
+    width: 80px;
+    height: auto;
+  }
+  .header .title {
+    margin: 25px auto 0px auto;
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+/*# sourceMappingURL=src/styles/stylus/partials/header.css.map */.intro .container {
+  width: 85%;
+  max-width: 900px;
+  font-size: 22px;
+  color: #000;
+  text-align: left;
+  line-height: 36px;
+  margin: 60px auto 80px auto;
+}
+@media screen and (max-width: 899px) and (min-width: 500px) {
+  .intro .container {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 40px auto 80px auto;
+  }
+}
+@media screen and (max-width: 499px) {
+  .intro .container {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 30px auto 120px auto;
+  }
+}
+/*# sourceMappingURL=src/styles/stylus/partials/intro.css.map */.format {
+  padding: 50px 0 40px 0;
+  background-color: #1c75bc;
+}
+.format .container {
+  zoom: 1;
+}
+.format .container:before,
+.format .container:after {
+  content: "";
+  display: table;
+}
+.format .container:after {
+  clear: both;
+}
+.format .container .flexible-box {
+  float: left;
+  width: 100%;
+  margin-right: -432px;
+}
+.format .container .flexible-box > .box {
+  margin-right: 432px;
+}
+.format .container h2 {
+  font-family: 'Roboto Slab';
+  font-size: 42px;
+  color: #fff;
+  text-align: left;
+}
+.format .container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  width: 370px;
+  max-width: 100%;
+}
+.format .container li {
+  font-size: 18px;
+  color: #fff;
+  text-align: left;
+  line-height: 26px;
+  display: list-item;
+}
+.format .container .inner-img {
+  float: right;
+  margin-top: -100px;
+  margin-bottom: -100px;
+}
+.format .container img {
+  width: 380px;
+  height: 380px;
+  border-radius: 190px;
+  border: 10px solid #1c75bc;
+}
+@media screen and (max-width: 899px) and (min-width: 500px) {
+  .format .container .flexible-box {
+    margin-right: -282px;
+  }
+  .format .container .flexible-box > .box {
+    margin-right: 282px;
+  }
+  .format .container h2 {
+    font-size: 36px;
+  }
+  .format .container .inner-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    margin-top: -25px;
+  }
+  .format .container img {
+    width: 230px;
+    height: 230px;
+    border-radius: 115px;
+  }
+}
+@media screen and (max-width: 499px) {
+  .format {
+    padding-top: 90px;
+    padding-bottom: 20px;
+  }
+  .format .container .flexible-box {
+    max-width: 100%;
+    width: 100%;
+    float: none;
+    margin-right: 0;
+  }
+  .format .container .flexible-box > .box {
+    margin-right: 0;
+  }
+  .format .container h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .format .container li {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .format .container .inner-img {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    margin-top: -165px;
+    margin-bottom: 15px;
+  }
+  .format .container img {
+    width: 140px;
+    height: 140px;
+    border-radius: 75px;
+    border: 5px solid #1c75bc;
+  }
+}
+/*# sourceMappingURL=src/styles/stylus/partials/format.css.map */.information .container {
+  margin-top: 85px;
+  margin-bottom: 105px;
+  font-size: 22px;
+  color: #000;
+  text-align: left;
+  line-height: 36px;
+}
+.information .container > p {
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 899px) and (min-width: 500px) {
+  .information .container {
+    margin-top: 44px;
+    margin-bottom: 95px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .information .container > p:first-child {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 499px) {
+  .information .container {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .information .container > p:first-child {
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=src/styles/stylus/partials/information.css.map */.join {
+  padding: 60px 0 50px 0;
+  background-color: #f9d41c;
+  width: 100%;
+}
+.join .container {
+  text-align: center;
+}
+.join .container blockquote {
+  font-family: 'Roboto Slab';
+  font-size: 36px;
+  color: #000;
+  text-align: center;
+  line-height: 44px;
+}
+.join .container .wp-button {
+  display: block;
+  text-align: center;
+  margin: 90px auto 0px auto;
+}
+.join .container .wp-button > a {
+  display: inline-block;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-align: center;
+  background-color: #39b54a;
+  cursor: pointer;
+  padding: 15px 28px;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.join .container .wp-button > a:hover {
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+}
+@media screen and (max-width: 899px) and (min-width: 500px) {
+  .join {
+    padding: 67x 0 70px 0;
+  }
+  .join .container blockquote {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .join .container .wp-button {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 499px) {
+  .join {
+    padding: 47x 0 40px 0;
+  }
+  .join .container blockquote {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .join .container .wp-button {
+    margin-top: 40px;
+  }
+  .join .container .wp-button > a {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 15px;
+  }
+}
+/*# sourceMappingURL=src/styles/stylus/partials/join.css.map */.footer {
+  padding: 40px 0 50px 0;
+}
+.footer .title {
+  font-size: 22px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.footer .title span {
+  font-weight: 700;
+}
+.footer .footer-img {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 899px) and (min-width: 500px) {
+  .footer {
+    padding: 40px 0 40px 0;
+  }
+}
+@media screen and (max-width: 499px) {
+  .footer {
+    padding: 20px 0 30px 0;
+  }
+  .footer .title {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+  .footer .footer-img {
+    width: 150px;
+  }
+}
+/*# sourceMappingURL=src/styles/stylus/partials/footer.css.map */
+/*# sourceMappingURL=style.css.map*/
